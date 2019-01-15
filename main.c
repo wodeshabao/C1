@@ -19,8 +19,9 @@ int main()
         if (code == 1)
         {
             printf("请输入存钱金额\n");
-            int qian;
-            scanf("%d",&qian);
+            int cun;
+            qian=qian+cun;
+            scanf("%d",&cun);
 
             printf("存钱成功，点击回车继续\n");
             char x;
@@ -31,10 +32,21 @@ int main()
 
         if (code == 2)
         {
+            printf("请输入取钱金额\n");
+            int qu;
+            qian=qian-qu;
+            scanf("%d",qu);
+
+            printf("取钱成功，点击回车继续\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+            
         }
 
         if (code == 3)
         {
+           
         }
 
         if (code == 4)
