@@ -54,6 +54,8 @@ int main()
 
         if (code == 4)
         {
+            printf("程序结束\n");
+            break;
         }
     }
 
