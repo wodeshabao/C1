@@ -46,7 +46,10 @@ int main()
 
         if (code == 3)
         {
-           
+            printf("您的余额为%d\n",qian);
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
 
         if (code == 4)
