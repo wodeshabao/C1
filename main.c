@@ -20,6 +20,7 @@ int main()
         {
             printf("请输入存钱金额\n");
             int qian;
+            scanf("%d",&qian);
 
             printf("存钱成功，点击回车继续\n");
             char x;
